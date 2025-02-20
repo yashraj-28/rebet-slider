@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
-    "paths": {
-      "@/*": ["./*"]
-    }
+    "jsx": "preserve", // or "react-jsx" if using React 17+
+    "allowJs": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "module": "esnext"
   }
 }
